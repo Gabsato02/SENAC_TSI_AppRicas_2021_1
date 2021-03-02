@@ -1,0 +1,21 @@
+    main {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    section {
+        box-sizing: border-box;
+        width: 600px;
+        text-align: center;
+        padding: 50px;
+        border: 1px solid darkgray;
+        background: #fff9ae;
+    }
+
+    canvas {
+        width: 400px;
+        height: 200px;
+        border: 1px solid #000;
+        background: #fff;
+    }
