@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta http-equiv="Content-type" content="text/html" ; charset="UTF-8" />
+    <title>Exercício - Aula 3</title>
+    <script src='script.js' defer></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Exercício 1 - Logotipo - Restaurante Japonês</h1>
+        <div style="display: block; width: 300px; text-align: center; border: 1px solid #000; padding-bottom: 20px;">
+            <svg width="300" height="160">
+                <rect
+                    width="300"
+                    height="160"
+                    style="fill: #fff;"
+                />
+                <circle cx="150" cy="100" r="40" fill="#BC002D" />
+                <line
+                    x1="30"
+                    y1="100"
+                    x2="150"
+                    y2="143"
+                    style="stroke: #000; stroke-width: 3"
+                />
+                <line
+                    x1="30"
+                    y1="100"
+                    x2="150"
+                    y2="57"
+                    style="stroke: #000; stroke-width: 3"
+                />
+            </svg>
+            <span
+                style="
+                color: #bc002d;
+                font-family: Impact;
+                font-size: 2rem;
+                "
+            >
+                Sushi Bar
+            </span>
+        </div>
+      </section>
+
+      <section>
+        <h1>Exercício 2 - Gráfico Senoidal</h1>
+        <svg width="300" height="200" style=" border: 1px solid #000;" id="grafico">
+            <line
+                x1="30"
+                y1="120"
+                x2="270"
+                y2="120"
+                style="stroke: #000; stroke-width: 1"
+            />
+            <line
+                x1="60"
+                y1="20"
+                x2="60"
+                y2="180"
+                style="stroke: #000; stroke-width: 1"
+            />
+            <g class='linha-1' stroke="blue" stroke-width="5" fill="none">
+                <path d="M 25 100 Q 50 -50, 100 100" />
+                <path d="M 100 100 Q 150 250, 200 100" />
+                <path d="M 200 100 Q 250 -50, 300 100" />
+            </g>
+            
+            <g class='linha-2'stroke="red" stroke-width="5" fill="none" >
+                <path d="M 25 100 Q 50 250, 100 100" />
+                <path d="M 100 100 Q 150 -50, 200 100" />
+                <path d="M 200 100 Q 250 250, 300 100" />
+            </g>
+        </svg>
+      </section>
+    </main>
+  </body>
+</html>
